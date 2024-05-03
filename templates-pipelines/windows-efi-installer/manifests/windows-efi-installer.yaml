@@ -79,7 +79,7 @@ spec:
                   requests:
                     storage: 9Gi
         - name: waitForSuccess
-          value: false
+          value: true
         - name: allowReplace
           value: true
       taskRef:
